@@ -5,7 +5,7 @@ const Downloadcv = () => {
     <nav className=" sm:px-16 w-full flex justify-center items-center  top-0 z-20">
       <div className=" flex justify-between  items-center max-w-7xl w-full  h-14 relative ">
         <button
-          onClick={() => toast.warning("update be later")}
+          onClick={() => toast.warning("update be  later")}
           className=" 
     p-2 sm:p-3 bg-[#6670F1] 
     absolute  right-4    sm:right-0 
