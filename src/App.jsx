@@ -13,7 +13,7 @@ import CanvasCursor from "./Components/CanvasCursor";
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="relative z-0 bg-black text-white min-h-screen">
+      <div   className="relative z-0 bg-black text-white min-h-screen ">
         {/* Navbar is rendered on top */}
         <Navbar />
 
