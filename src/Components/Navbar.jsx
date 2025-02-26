@@ -6,7 +6,7 @@ import menu from "../../public/menu2.png";
 const Navbar = () => {
   const navLinks = [
   
-    { id: "about", title: "About" },
+    { id: "home", title: "Home" },
     { id: "work", title: "Work" },
     { id: "contact", title: "Contact" },
   ];
