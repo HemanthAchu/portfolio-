@@ -15,7 +15,7 @@ function Home() {
             Hi I'am <span className="text-[#6670F1]">Hemanth</span>
           </h1>
           <p className="text-gray-400 text-justify text-sm  mt-2">
-            I'm a Junior Developer passionate about building dynamic and
+            I'm a Full Stack Developer passionate about building dynamic and
             responsive web applications. I specialize in front-end technologies
             like React, JavaScript, HTML, and CSS. My goal is to continue
             learning and growing in the development field, and contribute to
