@@ -3,17 +3,18 @@ import { Link } from "react-router-dom";
 import logo from "../../public/logo2.png";
 import close from "../../public/close.png";
 import menu from "../../public/menu2.png";
+import Downloadcv from "./Downloadcv";
 const Navbar = () => {
-  const navLinks = [
+  // const navLinks = [
   
-    { id: "home", title: "Home" },
-    { id: "work", title: "Work" },
-    { id: "contact", title: "Contact" },
-  ];
+  //   { id: "home", title: "Home" },
+  //   { id: "work", title: "Work" },
+  //   { id: "contact", title: "Contact" },
+  // ];
 
-  const [active, setActive] = useState(navLinks[0].title); // Assuming the first item is active initially
-  const [activeIndex, setActiveIndex] = useState(0); // I
-  const [toggle, setToggle] = useState(false);
+  // const [active, setActive] = useState(navLinks[0].title); // Assuming the first item is active initially
+  // const [activeIndex, setActiveIndex] = useState(0); // I
+  // const [toggle, setToggle] = useState(false);
 
   // In your JSX
 
@@ -36,8 +37,10 @@ const Navbar = () => {
             </span>
           </p>
         </Link>
+
+     
         {/* <p className="text-purple-600">sdcsv</p> */}
-        <ul className="list-none hidden sm:flex flex-row gap-10  w-[320px] h-[50px] bg-gradient-to-l rounded-sm from-gray-600 to-black relative flex justify-center items-center  ">
+        {/* <ul className="list-none hidden sm:flex flex-row gap-10  w-[320px] h-[50px] bg-gradient-to-l rounded-sm from-gray-600 to-black relative flex justify-center items-center  ">
           <span
             className="absolute top-0 left-0 w-[95px] h-full bg-gradient-to-l rounded-sm from-[#6670F1] rounded-sm transition-all duration-300"
             style={{ left: activeIndex * 113 + "px" }} // Calculate left based on activeIndex
@@ -90,7 +93,7 @@ const Navbar = () => {
               ))}
             </ul>
           </div>
-        </div>
+        </div> */}
       </div>
     </nav>
   );

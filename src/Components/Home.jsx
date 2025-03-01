@@ -27,7 +27,7 @@ function Home() {
         </div>
       
       </div>
-      <div className=" absolute  min-w-full pt-20 min-h-[370px] flex justify-center items-center  hidden lg:block">
+      <div className=" absolute     pt-20 min-h-[370px] flex justify-center items-center  hidden lg:block">
           <ComputersCanvas />
         </div>
 

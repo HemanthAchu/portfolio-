@@ -17,7 +17,10 @@ const App = () => {
       <div   className="relative z-0 bg-black text-white min-h-screen ">
         {/* Navbar is rendered on top */}
         <Navbar />
-<Downloadcv/>
+        <div className="mt-[-70px]">
+        <Downloadcv/>
+        </div>
+
         {/* Home and other sections */}
         <Home />
         <Skills />

@@ -91,7 +91,7 @@ const Contact = () => {
     Contact Us
   </p>
 
-    <div className="min-h-screen  flex items-center justify-center   py-6">
+    <div className="  flex items-center justify-center   py-6">
 
       
       <div className="bg-gradient-to-l from-[#001F3F] p-8 rounded-lg shadow-md max-w-md w-full">
